@@ -1,4 +1,4 @@
 const getAPIData = (event) => {
-    return fetch("https://github.com/nashville-software-school/the-vault/blob/master/sales.json")
+    return fetch("http://localhost:8088/sales")
     .then(data => data.json())
 }
